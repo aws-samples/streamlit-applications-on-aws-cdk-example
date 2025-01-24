@@ -1,0 +1,19 @@
+{
+  "name": "streamlit-workshop",
+  "version": "1.0.0",
+  "description": "StreamLit on AWS Demo",
+  "main": "dist/streamlit.js",
+  "author": "Fabio Torchetti <fabbari@amazon.com>",
+  "license": "Apache-2.0",
+  "private": true,
+  "scripts": {
+    "synth": "cd cdk && cdk synth",
+    "deploy": "cd cdk && cdk deploy"
+  },
+  "workspaces": [
+    "cdk"
+  ],
+  "dependencies": {
+    "cdk": "2.158.0"
+  }
+}
